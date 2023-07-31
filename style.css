@@ -1,0 +1,125 @@
+body {
+  background-color: rgb(148, 210, 189);
+  font-family: 'Roboto Slab', serif;
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+h1 {
+  font-family: 'Handjet', cursive;
+  font-size: 54px;
+  color: rgb(202, 103, 2);
+  text-shadow: 2px 1px 1px rgb(155, 34, 38);
+}
+
+h1:hover {
+  font-size: 62x;
+  text-decoration: wavy;
+  text-shadow: 1px 1px 2px black;
+}
+
+ h2 {
+  font-family: 'Handjet', cursive;
+  color: rgb(202, 103, 2);
+  text-shadow: 0.5px 0.5px 0.5px white;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.card-section:hover {
+  box-shadow: 0px 1px 10px rgb(0, 95, 115);
+}
+.card-section {
+  background: white;
+  padding: 35px;
+  margin: 40px auto;
+  border: 3px solid rgb(0, 95, 115);
+  border-radius: 7px;
+  box-shadow: 2px 1px 5px rgb(0, 95, 115);
+  text-align: center;
+}
+
+.img-square {
+  min-width: 100px;
+  width: 32%;
+  border: 1px solid black;
+  border-radius: 10%;
+  box-shadow: 0px 1px 5px rgb(0, 95, 115);
+}
+
+.img-square:hover {
+  width: 34%;
+  border: 3px solid rgb(202, 103, 2);
+  border-radius: 20%;
+  box-shadow: 0px 0px 90px rgb(238, 155, 0)
+}
+.button {
+  background: rgb(202, 103, 2);
+  border: 2px solid black;
+  border-radius: 3px;
+  padding: 15px 32px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.3s;
+}
+
+.button:hover {
+  background-color: rgb(187, 62, 3);
+  color: rgb(0, 0, 0);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(202, 103, 2);
+  transition-duration: 0.3s;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(187, 62, 3);
+}
+
+h2:hover {
+  text-decoration: underline;
+}
+
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 540px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 200px;
+  }
+}
